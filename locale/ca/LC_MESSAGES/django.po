@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dmoj\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-26 23:49+0000\n"
-"PO-Revision-Date: 2021-08-27 00:29\n"
+"POT-Creation-Date: 2021-09-06 16:08+0000\n"
+"PO-Revision-Date: 2021-09-07 00:26\n"
 "Last-Translator: \n"
 "Language-Team: Catalan\n"
 "Language: ca_ES\n"
@@ -17,71 +17,71 @@ msgstr ""
 "X-Crowdin-File: django.po\n"
 "X-Crowdin-File-ID: 10\n"
 
-#: dmoj/settings.py:368
+#: dmoj/settings.py:370
 msgid "Catalan"
 msgstr ""
 
-#: dmoj/settings.py:369
+#: dmoj/settings.py:371
 msgid "German"
 msgstr "Alemany"
 
-#: dmoj/settings.py:370
+#: dmoj/settings.py:372
 msgid "English"
 msgstr "Anglès"
 
-#: dmoj/settings.py:371
+#: dmoj/settings.py:373
 msgid "Spanish"
 msgstr "Castellà"
 
-#: dmoj/settings.py:372
+#: dmoj/settings.py:374
 msgid "French"
 msgstr "Francès"
 
-#: dmoj/settings.py:373
+#: dmoj/settings.py:375
 msgid "Croatian"
 msgstr "Croat"
 
-#: dmoj/settings.py:374
+#: dmoj/settings.py:376
 msgid "Hungarian"
 msgstr "Hongarès"
 
-#: dmoj/settings.py:375
+#: dmoj/settings.py:377
 msgid "Japanese"
 msgstr "Japonès"
 
-#: dmoj/settings.py:376
+#: dmoj/settings.py:378
 msgid "Korean"
 msgstr "Coreà"
 
-#: dmoj/settings.py:377
+#: dmoj/settings.py:379
 msgid "Brazilian Portuguese"
 msgstr "Portuguès (Brasil)"
 
-#: dmoj/settings.py:378
+#: dmoj/settings.py:380
 msgid "Romanian"
 msgstr "Romanès"
 
-#: dmoj/settings.py:379
+#: dmoj/settings.py:381
 msgid "Russian"
 msgstr "Rus"
 
-#: dmoj/settings.py:380
+#: dmoj/settings.py:382
 msgid "Serbian (Latin)"
 msgstr "Serbi (llatí)"
 
-#: dmoj/settings.py:381
+#: dmoj/settings.py:383
 msgid "Turkish"
 msgstr "Turc"
 
-#: dmoj/settings.py:382
+#: dmoj/settings.py:384
 msgid "Vietnamese"
 msgstr "Vietnamita"
 
-#: dmoj/settings.py:383
+#: dmoj/settings.py:385
 msgid "Simplified Chinese"
 msgstr "Xinès simplificat"
 
-#: dmoj/settings.py:384
+#: dmoj/settings.py:386
 msgid "Traditional Chinese"
 msgstr "Xinès tradicional"
 
@@ -752,7 +752,7 @@ msgid "comments"
 msgstr "comentaris"
 
 #: judge/models/comment.py:89 judge/models/comment.py:141
-#: judge/models/problem.py:511
+#: judge/models/problem.py:519
 #, python-format
 msgid "Editorial for %s"
 msgstr "Editorial de %s"
@@ -833,7 +833,7 @@ msgstr ""
 msgid "description"
 msgstr "Descripció"
 
-#: judge/models/contest.py:77 judge/models/problem.py:458
+#: judge/models/contest.py:77 judge/models/problem.py:466
 #: judge/models/runtime.py:138
 msgid "problems"
 msgstr "Problemes"
@@ -847,7 +847,7 @@ msgid "end time"
 msgstr "Hora de finalització"
 
 #: judge/models/contest.py:80 judge/models/problem.py:140
-#: judge/models/problem.py:482
+#: judge/models/problem.py:490
 msgid "time limit"
 msgstr "Límit de temps"
 
@@ -1154,8 +1154,8 @@ msgid "contest participations"
 msgstr "participacions al concurs"
 
 #: judge/models/contest.py:513 judge/models/contest.py:537
-#: judge/models/contest.py:577 judge/models/problem.py:457
-#: judge/models/problem.py:462 judge/models/problem.py:480
+#: judge/models/contest.py:577 judge/models/problem.py:465
+#: judge/models/problem.py:470 judge/models/problem.py:488
 #: judge/models/problem_data.py:35
 msgid "problem"
 msgstr "problema"
@@ -1289,7 +1289,7 @@ msgstr "Ítem pare"
 msgid "post title"
 msgstr "Títol de l'entrada"
 
-#: judge/models/interface.py:67 judge/models/problem.py:500
+#: judge/models/interface.py:67 judge/models/problem.py:508
 msgid "authors"
 msgstr "Autors/es"
 
@@ -1297,7 +1297,7 @@ msgstr "Autors/es"
 msgid "slug"
 msgstr "Identificador únic"
 
-#: judge/models/interface.py:69 judge/models/problem.py:498
+#: judge/models/interface.py:69 judge/models/problem.py:506
 msgid "public visibility"
 msgstr "visibilitat pública"
 
@@ -1483,7 +1483,7 @@ msgstr "El grup del problema, tal i com es mostra en la llista de problemes com 
 msgid "The time limit for this problem, in seconds. Fractional seconds (e.g. 1.5) are supported."
 msgstr "El temps límit per aquest problema, en segons. Les fraccions (1.5) estan permeses."
 
-#: judge/models/problem.py:145 judge/models/problem.py:485
+#: judge/models/problem.py:145 judge/models/problem.py:493
 msgid "memory limit"
 msgstr "Límit de memòria"
 
@@ -1559,104 +1559,104 @@ msgstr ""
 msgid "If private, only these organizations may see the problem."
 msgstr "Si està en privat, només aquestes organitzacions podran veure el problema"
 
-#: judge/models/problem.py:447
+#: judge/models/problem.py:455
 msgid "See hidden problems"
 msgstr "Veure problemes ocults"
 
-#: judge/models/problem.py:448
+#: judge/models/problem.py:456
 msgid "Edit own problems"
 msgstr "Editar problemes propis"
 
-#: judge/models/problem.py:449
+#: judge/models/problem.py:457
 msgid "Edit all problems"
 msgstr "Editar tots els problemes"
 
-#: judge/models/problem.py:450
+#: judge/models/problem.py:458
 msgid "Edit all public problems"
 msgstr "Editar tots els problemes públics"
 
-#: judge/models/problem.py:451
+#: judge/models/problem.py:459
 msgid "Edit problems with full markup"
 msgstr "Editar problemes amb accés total a Markup"
 
-#: judge/models/problem.py:452 templates/problem/problem.html:161
+#: judge/models/problem.py:460 templates/problem/problem.html:161
 msgid "Clone problem"
 msgstr "Clonar problema"
 
-#: judge/models/problem.py:453
+#: judge/models/problem.py:461
 msgid "Change is_public field"
 msgstr "Cambiar camp is_public "
 
-#: judge/models/problem.py:454
+#: judge/models/problem.py:462
 msgid "Change is_manually_managed field"
 msgstr "Cambiar camp is_manually_managed"
 
-#: judge/models/problem.py:455
+#: judge/models/problem.py:463
 msgid "See organization-private problems"
 msgstr "Veure els problemes privats per a organitzacions"
 
-#: judge/models/problem.py:463 judge/models/problem.py:481
+#: judge/models/problem.py:471 judge/models/problem.py:489
 #: judge/models/runtime.py:111
 msgid "language"
 msgstr "Llenguatge"
 
-#: judge/models/problem.py:464
+#: judge/models/problem.py:472
 msgid "translated name"
 msgstr "Nom traduït"
 
-#: judge/models/problem.py:465
+#: judge/models/problem.py:473
 msgid "translated description"
 msgstr "Descripció traduïda"
 
-#: judge/models/problem.py:469
+#: judge/models/problem.py:477
 msgid "problem translation"
 msgstr "Traducció del problema"
 
-#: judge/models/problem.py:470
+#: judge/models/problem.py:478
 msgid "problem translations"
 msgstr "Traduccions del problema"
 
-#: judge/models/problem.py:474
+#: judge/models/problem.py:482
 msgid "clarified problem"
 msgstr "Problema aclarit"
 
-#: judge/models/problem.py:475
+#: judge/models/problem.py:483
 msgid "clarification body"
 msgstr "Cos de l'aclariment"
 
-#: judge/models/problem.py:476
+#: judge/models/problem.py:484
 msgid "clarification timestamp"
 msgstr "Marca de temps de l'aclariment"
 
-#: judge/models/problem.py:491
+#: judge/models/problem.py:499
 msgid "language-specific resource limit"
 msgstr "Límit de Recursos Específics per Llenguatge"
 
-#: judge/models/problem.py:492
+#: judge/models/problem.py:500
 msgid "language-specific resource limits"
 msgstr "Límits de Recursos Específics per Llenguatge"
 
-#: judge/models/problem.py:496
+#: judge/models/problem.py:504
 msgid "associated problem"
 msgstr "Problema associat"
 
-#: judge/models/problem.py:499
+#: judge/models/problem.py:507
 msgid "publish date"
 msgstr "Data de publicació"
 
-#: judge/models/problem.py:501
+#: judge/models/problem.py:509
 msgid "editorial content"
 msgstr "Contingut de l'editorial"
 
-#: judge/models/problem.py:524
+#: judge/models/problem.py:532
 msgid "See hidden solutions"
 msgstr "Veure solucions ocultes"
 
-#: judge/models/problem.py:526
+#: judge/models/problem.py:534
 msgid "solution"
 msgstr "solució"
 
-#: judge/models/problem.py:527
+#: judge/models/problem.py:535
 msgid "solutions"
 msgstr "solucions"
 
@@ -3199,27 +3199,27 @@ msgstr "Nou missatge de Ticket per a: %s"
 msgid "Enable Two-factor Authentication"
 msgstr "Activar autenticació en dos passos"
 
-#: judge/views/two_factor.py:108
+#: judge/views/two_factor.py:109
 msgid "Refresh Two-factor Authentication"
 msgstr ""
 
-#: judge/views/two_factor.py:116
+#: judge/views/two_factor.py:117
 msgid "Disable Two-factor Authentication"
 msgstr "Deshabilitar l'autenticació en dos passos"
 
-#: judge/views/two_factor.py:165
+#: judge/views/two_factor.py:166
 msgid "Invalid WebAuthn response"
 msgstr "Resposta WebAuthn invàlida"
 
-#: judge/views/two_factor.py:168
+#: judge/views/two_factor.py:169
 msgid "Invalid name"
 msgstr "Nom invàlid"
 
-#: judge/views/two_factor.py:221
+#: judge/views/two_factor.py:222
 msgid "Staff may not disable 2FA"
 msgstr "Els usuaris amb permisos elevats no poden desactivar l'autenticació en dos passos"
 
-#: judge/views/two_factor.py:229
+#: judge/views/two_factor.py:230
 msgid "Perform Two-factor Authentication"
 msgstr "Activar autenticació en dos passos"
 
@@ -4699,6 +4699,15 @@ msgstr ""
 msgid "These codes will never be shown again after you enable two-factor authentication."
 msgstr ""
 
+#: templates/registration/totp_enable.html:108
+msgid "Important"
+msgstr ""
+
+#: templates/registration/totp_enable.html:109
+#, python-format
+msgid "If you lose your authentication device and are unable to use your scratch codes, %(site_name)s admins will NOT be able to recover your account. Please keep your scratch codes safe!"
+msgstr ""
+
 #: templates/registration/two_factor_auth.html:33
 #: templates/user/edit-profile.html:165
 msgid "WebAuthn is not supported by your browser."
@@ -4725,7 +4734,7 @@ msgstr "Fes servir la clau de seguretat"
 msgid "Use scratch code"
 msgstr ""
 
-#: templates/registration/two_factor_auth.html:97
+#: templates/registration/two_factor_auth.html:98
 #, python-format
 msgid "If you lost your authentication device and are unable to use your scratch codes, please contact us at %(email)s."
 msgstr "Si has perdut el teu dispositiu d'autenticació i no pots fer servir els teus codis scratch, contacta'ns a %(email)s"

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dmoj\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-26 23:49+0000\n"
-"PO-Revision-Date: 2021-08-27 00:30\n"
+"POT-Creation-Date: 2021-09-06 16:08+0000\n"
+"PO-Revision-Date: 2021-09-07 00:27\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -17,71 +17,71 @@ msgstr ""
 "X-Crowdin-File: django.po\n"
 "X-Crowdin-File-ID: 10\n"
 
-#: dmoj/settings.py:368
+#: dmoj/settings.py:370
 msgid "Catalan"
 msgstr "Catalan"
 
-#: dmoj/settings.py:369
+#: dmoj/settings.py:371
 msgid "German"
 msgstr "Alemán"
 
-#: dmoj/settings.py:370
+#: dmoj/settings.py:372
 msgid "English"
 msgstr "Inglés"
 
-#: dmoj/settings.py:371
+#: dmoj/settings.py:373
 msgid "Spanish"
 msgstr "Español"
 
-#: dmoj/settings.py:372
+#: dmoj/settings.py:374
 msgid "French"
 msgstr "Francés"
 
-#: dmoj/settings.py:373
+#: dmoj/settings.py:375
 msgid "Croatian"
 msgstr "Croata"
 
-#: dmoj/settings.py:374
+#: dmoj/settings.py:376
 msgid "Hungarian"
 msgstr "Húngaro"
 
-#: dmoj/settings.py:375
+#: dmoj/settings.py:377
 msgid "Japanese"
 msgstr "Japonés"
 
-#: dmoj/settings.py:376
+#: dmoj/settings.py:378
 msgid "Korean"
 msgstr "Coreano"
 
-#: dmoj/settings.py:377
+#: dmoj/settings.py:379
 msgid "Brazilian Portuguese"
 msgstr "Portugués (Brasil)"
 
-#: dmoj/settings.py:378
+#: dmoj/settings.py:380
 msgid "Romanian"
 msgstr "Rumano"
 
-#: dmoj/settings.py:379
+#: dmoj/settings.py:381
 msgid "Russian"
 msgstr "Ruso"
 
-#: dmoj/settings.py:380
+#: dmoj/settings.py:382
 msgid "Serbian (Latin)"
 msgstr "Serbio (Latino)"
 
-#: dmoj/settings.py:381
+#: dmoj/settings.py:383
 msgid "Turkish"
 msgstr "Turco"
 
-#: dmoj/settings.py:382
+#: dmoj/settings.py:384
 msgid "Vietnamese"
 msgstr "Vietnamita"
 
-#: dmoj/settings.py:383
+#: dmoj/settings.py:385
 msgid "Simplified Chinese"
 msgstr "Chino simplificado"
 
-#: dmoj/settings.py:384
+#: dmoj/settings.py:386
 msgid "Traditional Chinese"
 msgstr "Chino Tradicional"
 
@@ -752,7 +752,7 @@ msgid "comments"
 msgstr "comentarios"
 
 #: judge/models/comment.py:89 judge/models/comment.py:141
-#: judge/models/problem.py:511
+#: judge/models/problem.py:519
 #, python-format
 msgid "Editorial for %s"
 msgstr "Editorial de %s"
@@ -833,7 +833,7 @@ msgstr ""
 msgid "description"
 msgstr "descripción"
 
-#: judge/models/contest.py:77 judge/models/problem.py:458
+#: judge/models/contest.py:77 judge/models/problem.py:466
 #: judge/models/runtime.py:138
 msgid "problems"
 msgstr "problemas"
@@ -847,7 +847,7 @@ msgid "end time"
 msgstr "hora final"
 
 #: judge/models/contest.py:80 judge/models/problem.py:140
-#: judge/models/problem.py:482
+#: judge/models/problem.py:490
 msgid "time limit"
 msgstr "tiempo límite"
 
@@ -1154,8 +1154,8 @@ msgid "contest participations"
 msgstr "participaciones del concurso"
 
 #: judge/models/contest.py:513 judge/models/contest.py:537
-#: judge/models/contest.py:577 judge/models/problem.py:457
-#: judge/models/problem.py:462 judge/models/problem.py:480
+#: judge/models/contest.py:577 judge/models/problem.py:465
+#: judge/models/problem.py:470 judge/models/problem.py:488
 #: judge/models/problem_data.py:35
 msgid "problem"
 msgstr "problema"
@@ -1289,7 +1289,7 @@ msgstr "elementos paternales"
 msgid "post title"
 msgstr "título de la publicación"
 
-#: judge/models/interface.py:67 judge/models/problem.py:500
+#: judge/models/interface.py:67 judge/models/problem.py:508
 msgid "authors"
 msgstr "autores"
 
@@ -1297,7 +1297,7 @@ msgstr "autores"
 msgid "slug"
 msgstr "babosa (slug)"
 
-#: judge/models/interface.py:69 judge/models/problem.py:498
+#: judge/models/interface.py:69 judge/models/problem.py:506
 msgid "public visibility"
 msgstr "visibilidad pública"
 
@@ -1483,7 +1483,7 @@ msgstr "El grupo del problema, visto como Categoría en la lista de problemas"
 msgid "The time limit for this problem, in seconds. Fractional seconds (e.g. 1.5) are supported."
 msgstr "El límite de tiempo para este problema, en segundos. Los segundos fraccionarios (por ejemplo, 1.5) están permitidos."
 
-#: judge/models/problem.py:145 judge/models/problem.py:485
+#: judge/models/problem.py:145 judge/models/problem.py:493
 msgid "memory limit"
 msgstr "límite de memoria"
 
@@ -1559,104 +1559,104 @@ msgstr ""
 msgid "If private, only these organizations may see the problem."
 msgstr "Si privado, solo estas organizaciones pueden ver el problema"
 
-#: judge/models/problem.py:447
+#: judge/models/problem.py:455
 msgid "See hidden problems"
 msgstr "Ver problemas ocultos"
 
-#: judge/models/problem.py:448
+#: judge/models/problem.py:456
 msgid "Edit own problems"
 msgstr "Editar problemas propios"
 
-#: judge/models/problem.py:449
+#: judge/models/problem.py:457
 msgid "Edit all problems"
 msgstr "Editar todos los problemas"
 
-#: judge/models/problem.py:450
+#: judge/models/problem.py:458
 msgid "Edit all public problems"
 msgstr "Editar todos los problemas públicos"
 
-#: judge/models/problem.py:451
+#: judge/models/problem.py:459
 msgid "Edit problems with full markup"
 msgstr "Editar problemas con markup completo"
 
-#: judge/models/problem.py:452 templates/problem/problem.html:161
+#: judge/models/problem.py:460 templates/problem/problem.html:161
 msgid "Clone problem"
 msgstr "Clonar problema"
 
-#: judge/models/problem.py:453
+#: judge/models/problem.py:461
 msgid "Change is_public field"
 msgstr "Cambiar campo is_public"
 
-#: judge/models/problem.py:454
+#: judge/models/problem.py:462
 msgid "Change is_manually_managed field"
 msgstr "Cambiar campo is_manually_managed"
 
-#: judge/models/problem.py:455
+#: judge/models/problem.py:463
 msgid "See organization-private problems"
 msgstr "Ver problemas privados para la organización"
 
-#: judge/models/problem.py:463 judge/models/problem.py:481
+#: judge/models/problem.py:471 judge/models/problem.py:489
 #: judge/models/runtime.py:111
 msgid "language"
 msgstr "lenguaje"
 
-#: judge/models/problem.py:464
+#: judge/models/problem.py:472
 msgid "translated name"
 msgstr "nombre traducido"
 
-#: judge/models/problem.py:465
+#: judge/models/problem.py:473
 msgid "translated description"
 msgstr "descripción traducida"
 
-#: judge/models/problem.py:469
+#: judge/models/problem.py:477
 msgid "problem translation"
 msgstr "problemas de traducción"
 
-#: judge/models/problem.py:470
+#: judge/models/problem.py:478
 msgid "problem translations"
 msgstr "problemas de traducciones"
 
-#: judge/models/problem.py:474
+#: judge/models/problem.py:482
 msgid "clarified problem"
 msgstr "problema aclarado"
 
-#: judge/models/problem.py:475
+#: judge/models/problem.py:483
 msgid "clarification body"
 msgstr "cuerpo de la aclaración"
 
-#: judge/models/problem.py:476
+#: judge/models/problem.py:484
 msgid "clarification timestamp"
 msgstr "hora de la aclaración"
 
-#: judge/models/problem.py:491
+#: judge/models/problem.py:499
 msgid "language-specific resource limit"
 msgstr "límite de recursos específicos del lenguaje"
 
-#: judge/models/problem.py:492
+#: judge/models/problem.py:500
 msgid "language-specific resource limits"
 msgstr "límites de recursos específicos del lenguaje"
 
-#: judge/models/problem.py:496
+#: judge/models/problem.py:504
 msgid "associated problem"
 msgstr "problema asociado"
 
-#: judge/models/problem.py:499
+#: judge/models/problem.py:507
 msgid "publish date"
 msgstr "fecha de publicación"
 
-#: judge/models/problem.py:501
+#: judge/models/problem.py:509
 msgid "editorial content"
 msgstr "contenido editorial"
 
-#: judge/models/problem.py:524
+#: judge/models/problem.py:532
 msgid "See hidden solutions"
 msgstr "Ver soluciones ocultas"
 
-#: judge/models/problem.py:526
+#: judge/models/problem.py:534
 msgid "solution"
 msgstr "solución"
 
-#: judge/models/problem.py:527
+#: judge/models/problem.py:535
 msgid "solutions"
 msgstr "soluciones"
 
@@ -3199,27 +3199,27 @@ msgstr "Nuevo Mensaje para: %s"
 msgid "Enable Two-factor Authentication"
 msgstr "Habilitar autenticación en dos pasos"
 
-#: judge/views/two_factor.py:108
+#: judge/views/two_factor.py:109
 msgid "Refresh Two-factor Authentication"
 msgstr ""
 
-#: judge/views/two_factor.py:116
+#: judge/views/two_factor.py:117
 msgid "Disable Two-factor Authentication"
 msgstr "Deshabilitar autenticación en dos pasos"
 
-#: judge/views/two_factor.py:165
+#: judge/views/two_factor.py:166
 msgid "Invalid WebAuthn response"
 msgstr "Respuesta WebAuthn inválida"
 
-#: judge/views/two_factor.py:168
+#: judge/views/two_factor.py:169
 msgid "Invalid name"
 msgstr "Nombre inválido"
 
-#: judge/views/two_factor.py:221
+#: judge/views/two_factor.py:222
 msgid "Staff may not disable 2FA"
 msgstr "El personal con permisos elevados en la página no puede desactivar la Autenticación en dos pasos"
 
-#: judge/views/two_factor.py:229
+#: judge/views/two_factor.py:230
 msgid "Perform Two-factor Authentication"
 msgstr "Realizar autenticación en dos pasos"
 
@@ -4699,6 +4699,15 @@ msgstr ""
 msgid "These codes will never be shown again after you enable two-factor authentication."
 msgstr ""
 
+#: templates/registration/totp_enable.html:108
+msgid "Important"
+msgstr ""
+
+#: templates/registration/totp_enable.html:109
+#, python-format
+msgid "If you lose your authentication device and are unable to use your scratch codes, %(site_name)s admins will NOT be able to recover your account. Please keep your scratch codes safe!"
+msgstr ""
+
 #: templates/registration/two_factor_auth.html:33
 #: templates/user/edit-profile.html:165
 msgid "WebAuthn is not supported by your browser."
@@ -4725,7 +4734,7 @@ msgstr "Usar clave de seguridad"
 msgid "Use scratch code"
 msgstr ""
 
-#: templates/registration/two_factor_auth.html:97
+#: templates/registration/two_factor_auth.html:98
 #, python-format
 msgid "If you lost your authentication device and are unable to use your scratch codes, please contact us at %(email)s."
 msgstr "Si perdiste tu dispositivo de autenticación y no puedes usar tus códigos de scratch, ponte en contacto con nosotros en %(email)s."

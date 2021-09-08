@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dmoj\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-26 23:49+0000\n"
-"PO-Revision-Date: 2021-08-27 00:29\n"
+"POT-Creation-Date: 2021-09-06 16:08+0000\n"
+"PO-Revision-Date: 2021-09-07 00:26\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -17,71 +17,71 @@ msgstr ""
 "X-Crowdin-File: django.po\n"
 "X-Crowdin-File-ID: 10\n"
 
-#: dmoj/settings.py:368
+#: dmoj/settings.py:370
 msgid "Catalan"
 msgstr "加泰隆语"
 
-#: dmoj/settings.py:369
+#: dmoj/settings.py:371
 msgid "German"
 msgstr "德语"
 
-#: dmoj/settings.py:370
+#: dmoj/settings.py:372
 msgid "English"
 msgstr "英语"
 
-#: dmoj/settings.py:371
+#: dmoj/settings.py:373
 msgid "Spanish"
 msgstr "西班牙语"
 
-#: dmoj/settings.py:372
+#: dmoj/settings.py:374
 msgid "French"
 msgstr "法语"
 
-#: dmoj/settings.py:373
+#: dmoj/settings.py:375
 msgid "Croatian"
 msgstr "克罗地亚语"
 
-#: dmoj/settings.py:374
+#: dmoj/settings.py:376
 msgid "Hungarian"
 msgstr "匈牙利语"
 
-#: dmoj/settings.py:375
+#: dmoj/settings.py:377
 msgid "Japanese"
 msgstr "日语"
 
-#: dmoj/settings.py:376
+#: dmoj/settings.py:378
 msgid "Korean"
 msgstr "韩语"
 
-#: dmoj/settings.py:377
+#: dmoj/settings.py:379
 msgid "Brazilian Portuguese"
 msgstr "巴西葡萄牙语"
 
-#: dmoj/settings.py:378
+#: dmoj/settings.py:380
 msgid "Romanian"
 msgstr "罗马尼亚语"
 
-#: dmoj/settings.py:379
+#: dmoj/settings.py:381
 msgid "Russian"
 msgstr "俄语"
 
-#: dmoj/settings.py:380
+#: dmoj/settings.py:382
 msgid "Serbian (Latin)"
 msgstr "塞尔维亚文（拉丁字母）"
 
-#: dmoj/settings.py:381
+#: dmoj/settings.py:383
 msgid "Turkish"
 msgstr "土耳其语"
 
-#: dmoj/settings.py:382
+#: dmoj/settings.py:384
 msgid "Vietnamese"
 msgstr "越南语"
 
-#: dmoj/settings.py:383
+#: dmoj/settings.py:385
 msgid "Simplified Chinese"
 msgstr "简体中文"
 
-#: dmoj/settings.py:384
+#: dmoj/settings.py:386
 msgid "Traditional Chinese"
 msgstr "繁体中文"
 
@@ -737,7 +737,7 @@ msgid "comments"
 msgstr "评论"
 
 #: judge/models/comment.py:89 judge/models/comment.py:141
-#: judge/models/problem.py:511
+#: judge/models/problem.py:519
 #, python-format
 msgid "Editorial for %s"
 msgstr "%s 的题解"
@@ -818,7 +818,7 @@ msgstr "这些用户将可以查看题目， 但无法编辑。"
 msgid "description"
 msgstr "描述"
 
-#: judge/models/contest.py:77 judge/models/problem.py:458
+#: judge/models/contest.py:77 judge/models/problem.py:466
 #: judge/models/runtime.py:138
 msgid "problems"
 msgstr "题目"
@@ -832,7 +832,7 @@ msgid "end time"
 msgstr "结束时间"
 
 #: judge/models/contest.py:80 judge/models/problem.py:140
-#: judge/models/problem.py:482
+#: judge/models/problem.py:490
 msgid "time limit"
 msgstr "时间限制"
 
@@ -1139,8 +1139,8 @@ msgid "contest participations"
 msgstr "竞赛参与信息"
 
 #: judge/models/contest.py:513 judge/models/contest.py:537
-#: judge/models/contest.py:577 judge/models/problem.py:457
-#: judge/models/problem.py:462 judge/models/problem.py:480
+#: judge/models/contest.py:577 judge/models/problem.py:465
+#: judge/models/problem.py:470 judge/models/problem.py:488
 #: judge/models/problem_data.py:35
 msgid "problem"
 msgstr "题目"
@@ -1274,7 +1274,7 @@ msgstr "父项"
 msgid "post title"
 msgstr "文章标题"
 
-#: judge/models/interface.py:67 judge/models/problem.py:500
+#: judge/models/interface.py:67 judge/models/problem.py:508
 msgid "authors"
 msgstr "作者"
 
@@ -1282,7 +1282,7 @@ msgstr "作者"
 msgid "slug"
 msgstr "网址标志"
 
-#: judge/models/interface.py:69 judge/models/problem.py:498
+#: judge/models/interface.py:69 judge/models/problem.py:506
 msgid "public visibility"
 msgstr "公共可见性"
 
@@ -1468,7 +1468,7 @@ msgstr "在问题列表显示的问题组"
 msgid "The time limit for this problem, in seconds. Fractional seconds (e.g. 1.5) are supported."
 msgstr "这个问题的时间限制（以秒为单位。支持小数秒计时方式（例如1.5）。"
 
-#: judge/models/problem.py:145 judge/models/problem.py:485
+#: judge/models/problem.py:145 judge/models/problem.py:493
 msgid "memory limit"
 msgstr "内存限制"
 
@@ -1544,104 +1544,104 @@ msgstr ""
 msgid "If private, only these organizations may see the problem."
 msgstr "隐藏时，只对选择的组织才可见"
 
-#: judge/models/problem.py:447
+#: judge/models/problem.py:455
 msgid "See hidden problems"
 msgstr "查看隐藏问题"
 
-#: judge/models/problem.py:448
+#: judge/models/problem.py:456
 msgid "Edit own problems"
 msgstr "编辑自己的问题"
 
-#: judge/models/problem.py:449
+#: judge/models/problem.py:457
 msgid "Edit all problems"
 msgstr "编辑所有问题"
 
-#: judge/models/problem.py:450
+#: judge/models/problem.py:458
 msgid "Edit all public problems"
 msgstr "编辑所有公共问题"
 
-#: judge/models/problem.py:451
+#: judge/models/problem.py:459
 msgid "Edit problems with full markup"
 msgstr "使用所有markup来编辑问题"
 
-#: judge/models/problem.py:452 templates/problem/problem.html:161
+#: judge/models/problem.py:460 templates/problem/problem.html:161
 msgid "Clone problem"
 msgstr "复制题目"
 
-#: judge/models/problem.py:453
+#: judge/models/problem.py:461
 msgid "Change is_public field"
 msgstr "改变is_public领域"
 
-#: judge/models/problem.py:454
+#: judge/models/problem.py:462
 msgid "Change is_manually_managed field"
 msgstr "改变is_manually_managed领域"
 
-#: judge/models/problem.py:455
+#: judge/models/problem.py:463
 msgid "See organization-private problems"
 msgstr "查看对组织私有的问题"
 
-#: judge/models/problem.py:463 judge/models/problem.py:481
+#: judge/models/problem.py:471 judge/models/problem.py:489
 #: judge/models/runtime.py:111
 msgid "language"
 msgstr "语言"
 
-#: judge/models/problem.py:464
+#: judge/models/problem.py:472
 msgid "translated name"
 msgstr "翻译题目名"
 
-#: judge/models/problem.py:465
+#: judge/models/problem.py:473
 msgid "translated description"
 msgstr "翻译题目正文"
 
-#: judge/models/problem.py:469
+#: judge/models/problem.py:477
 msgid "problem translation"
 msgstr "题目翻译"
 
-#: judge/models/problem.py:470
+#: judge/models/problem.py:478
 msgid "problem translations"
 msgstr "题目翻译"
 
-#: judge/models/problem.py:474
+#: judge/models/problem.py:482
 msgid "clarified problem"
 msgstr "已澄清的问题"
 
-#: judge/models/problem.py:475
+#: judge/models/problem.py:483
 msgid "clarification body"
 msgstr "澄清的身体"
 
-#: judge/models/problem.py:476
+#: judge/models/problem.py:484
 msgid "clarification timestamp"
 msgstr "澄清时间戳"
 
-#: judge/models/problem.py:491
+#: judge/models/problem.py:499
 msgid "language-specific resource limit"
 msgstr "语言特定资源限制"
 
-#: judge/models/problem.py:492
+#: judge/models/problem.py:500
 msgid "language-specific resource limits"
 msgstr "语言特定资源限制"
 
-#: judge/models/problem.py:496
+#: judge/models/problem.py:504
 msgid "associated problem"
 msgstr "关联的题目"
 
-#: judge/models/problem.py:499
+#: judge/models/problem.py:507
 msgid "publish date"
 msgstr "发布日期"
 
-#: judge/models/problem.py:501
+#: judge/models/problem.py:509
 msgid "editorial content"
 msgstr "可编辑的内容"
 
-#: judge/models/problem.py:524
+#: judge/models/problem.py:532
 msgid "See hidden solutions"
 msgstr "查看隐藏的解答"
 
-#: judge/models/problem.py:526
+#: judge/models/problem.py:534
 msgid "solution"
 msgstr "题目讲解"
 
-#: judge/models/problem.py:527
+#: judge/models/problem.py:535
 msgid "solutions"
 msgstr "题目讲解"
 
@@ -3178,27 +3178,27 @@ msgstr "%s的新工单消息"
 msgid "Enable Two-factor Authentication"
 msgstr "启用双因素身份认证"
 
-#: judge/views/two_factor.py:108
+#: judge/views/two_factor.py:109
 msgid "Refresh Two-factor Authentication"
 msgstr ""
 
-#: judge/views/two_factor.py:116
+#: judge/views/two_factor.py:117
 msgid "Disable Two-factor Authentication"
 msgstr "禁用双因素身份认证"
 
-#: judge/views/two_factor.py:165
+#: judge/views/two_factor.py:166
 msgid "Invalid WebAuthn response"
 msgstr "WebAuthn回复无效"
 
-#: judge/views/two_factor.py:168
+#: judge/views/two_factor.py:169
 msgid "Invalid name"
 msgstr "名称无效"
 
-#: judge/views/two_factor.py:221
+#: judge/views/two_factor.py:222
 msgid "Staff may not disable 2FA"
 msgstr "员工不能禁用 2FA"
 
-#: judge/views/two_factor.py:229
+#: judge/views/two_factor.py:230
 msgid "Perform Two-factor Authentication"
 msgstr "执行双因素身份认证"
 
@@ -4673,6 +4673,15 @@ msgstr ""
 msgid "These codes will never be shown again after you enable two-factor authentication."
 msgstr ""
 
+#: templates/registration/totp_enable.html:108
+msgid "Important"
+msgstr ""
+
+#: templates/registration/totp_enable.html:109
+#, python-format
+msgid "If you lose your authentication device and are unable to use your scratch codes, %(site_name)s admins will NOT be able to recover your account. Please keep your scratch codes safe!"
+msgstr ""
+
 #: templates/registration/two_factor_auth.html:33
 #: templates/user/edit-profile.html:165
 msgid "WebAuthn is not supported by your browser."
@@ -4699,7 +4708,7 @@ msgstr "使用安全密钥"
 msgid "Use scratch code"
 msgstr "使用验证码"
 
-#: templates/registration/two_factor_auth.html:97
+#: templates/registration/two_factor_auth.html:98
 #, python-format
 msgid "If you lost your authentication device and are unable to use your scratch codes, please contact us at %(email)s."
 msgstr "如果您丢失了您的身份验证设备且无法使用您的验证码，请联系我们 %(email)s。"
